@@ -19,7 +19,6 @@ def main():
     print('Average Change: ${:,.2f}'.format(
         sum([i[1] for i in total_revenue]) / len(total_revenue)))
 
-    # refactor this if possible? The goal is to only have print statements here...
     minimum = min([i[1] for i in total_revenue])
     maximum = max([i[1] for i in total_revenue])
 
