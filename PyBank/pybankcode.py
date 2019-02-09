@@ -1,7 +1,7 @@
 import os
 import csv
 
-csvpath=os.path.join(C:\Users\Dolly\PythonHomework\Python-Challenge\PyBank\Resources\budget_data.csv,'budget_data.txt')
+csvpath=os.path.join('budget_data.csv')
 
 with open(csvpath, newline='') as csvfile:
 
